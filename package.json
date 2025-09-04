@@ -71,6 +71,7 @@
         "@awesome-cordova-plugins/sqlite": "^8.0.2",
         "@awesome-cordova-plugins/status-bar": "^8.0.2",
         "@awesome-cordova-plugins/web-intent": "^8.0.2",
+        "@ionic-enterprise/cordova": "^9.0.3",
         "@ionic/angular": "^8.7.1",
         "@ionic/cordova-builders": "^12.2.0",
         "@moodlehq/cordova-plugin-advanced-http": "3.3.1-moodle.1",
@@ -146,6 +147,7 @@
         "angular-eslint": "^20.1.1",
         "circular-dependency-plugin": "^5.2.2",
         "concurrently": "^8.2.2",
+        "cordova-plugin-ionic": "^5.5.3",
         "cordova-plugin-moodleapp": "file:cordova-plugin-moodleapp",
         "cross-env": "^7.0.3",
         "es-check": "^9.1.4",
@@ -231,7 +233,15 @@
             "cordova-plugin-wkuserscript": {},
             "cordova-plugin-wkwebview-cookies": {},
             "cordova-sqlite-storage": {},
-            "nl.kingsquare.cordova.background-audio": {}
+            "nl.kingsquare.cordova.background-audio": {},
+            "cordova-plugin-ionic": {
+                "UPDATE_METHOD": "background",
+                "MAX_STORE": "2",
+                "MIN_BACKGROUND_DURATION": "30",
+                "UPDATE_API": "https://api.ionicjs.com",
+                "APP_ID": "1661b738",
+                "CHANNEL_NAME": "Production"
+            }
         }
     }
 }
