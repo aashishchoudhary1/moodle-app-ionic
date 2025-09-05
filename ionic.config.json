@@ -7,5 +7,6 @@
   "hooks": {
     "build:before": "./scripts/copy-assets.js",
     "serve:before": "./scripts/copy-assets.js"
-  }
+  },
+  "id": "1661b738"
 }
