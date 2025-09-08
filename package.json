@@ -233,7 +233,14 @@
             "cordova-plugin-wkuserscript": {},
             "cordova-plugin-wkwebview-cookies": {},
             "cordova-sqlite-storage": {},
-            "nl.kingsquare.cordova.background-audio": {}
+            "nl.kingsquare.cordova.background-audio": {},
+            "cordova-plugin-ionic": {
+                "UPDATE_METHOD": "background",
+                "MAX_STORE": "2",
+                "MIN_BACKGROUND_DURATION": "30",
+                "UPDATE_API": "https://api.ionicjs.com",
+                "APP_ID": "1661b738",
+                "CHANNEL_NAME": "Production"
         }
     }
 }
