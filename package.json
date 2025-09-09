@@ -42,8 +42,8 @@
         "lang:update-langpacks": "./scripts/update_langpacks.sh",
         "lang:detect-langpacks": "./scripts/update_langpacks.sh detect",
         "lang:create-langindex": "./scripts/create_langindex.sh",
-        "build:custom": "./custom-build.sh && ionic cordova build android",
-        "ionic:build": "./custom-build.sh"
+        "build:custom": "node ./custom-build.js && ionic cordova build android",
+        "ionic:build": "node ./custom-build.js"
     },
     "dependencies": {
         "@angular/animations": "^20.1.0",
