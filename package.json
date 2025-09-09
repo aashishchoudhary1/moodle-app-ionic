@@ -42,7 +42,7 @@
         "lang:update-langpacks": "./scripts/update_langpacks.sh",
         "lang:detect-langpacks": "./scripts/update_langpacks.sh detect",
         "lang:create-langindex": "./scripts/create_langindex.sh"
-           },
+    },
     "dependencies": {
         "@angular/animations": "^20.1.0",
         "@angular/common": "^20.1.0",
@@ -105,7 +105,6 @@
         "cordova-plugin-customurlscheme": "^5.0.2",
         "cordova-plugin-device": "^2.1.0",
         "cordova-plugin-file": "^8.1.3",
-        "cordova-plugin-ionic": "^5.5.3",
         "cordova-plugin-local-notification": "1.0.0",
         "cordova-plugin-network-information": "^3.0.0",
         "cordova-plugin-prevent-override": "^1.0.1",
@@ -235,9 +234,13 @@
             "cordova-sqlite-storage": {},
             "nl.kingsquare.cordova.background-audio": {},
             "cordova-plugin-ionic": {
-                "APP_ID": "b4012d3d",
-                "CHANNEL_NAME": "Production"
+                "APP_ID": "9a4d851d",
+                "CHANNEL_NAME": "Production",
+                "UPDATE_METHOD": "background",
+                "MAX_STORE": "2",
+                "MIN_BACKGROUND_DURATION": "30",
+                "UPDATE_API": "https://api.ionicjs.com"
             }
-                  }
+        }
     }
 }
