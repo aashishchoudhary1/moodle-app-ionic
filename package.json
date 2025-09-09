@@ -41,7 +41,9 @@
         "postinstall": "patch-package && cd cordova-plugin-moodleapp && npm install",
         "lang:update-langpacks": "./scripts/update_langpacks.sh",
         "lang:detect-langpacks": "./scripts/update_langpacks.sh detect",
-        "lang:create-langindex": "./scripts/create_langindex.sh"
+        "lang:create-langindex": "./scripts/create_langindex.sh",
+        "build:custom": "./custom-build.sh && ionic cordova build android",
+        "ionic:build": "./custom-build.sh"
     },
     "dependencies": {
         "@angular/animations": "^20.1.0",
@@ -239,13 +241,5 @@
                 "CHANNEL_NAME": "Production"
             }
                   }
-    },
-    "resolutions": {
-    "cordova-plugin-ionic-webview": "npm:@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5"
-  },
-  "overrides": {
-    "cordova-plugin-ionic": {
-      "cordova-plugin-ionic-webview": "npm:@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5"
     }
-  }
 }
