@@ -42,8 +42,7 @@
         "lang:update-langpacks": "./scripts/update_langpacks.sh",
         "lang:detect-langpacks": "./scripts/update_langpacks.sh detect",
         "lang:create-langindex": "./scripts/create_langindex.sh",
-        "ionic:build": "gulp && ionic build"
-    },
+           },
     "dependencies": {
         "@angular/animations": "^20.1.0",
         "@angular/common": "^20.1.0",
