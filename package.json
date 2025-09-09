@@ -239,5 +239,13 @@
                 "CHANNEL_NAME": "Production"
             }
                   }
+    },
+    "resolutions": {
+    "cordova-plugin-ionic-webview": "npm:@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5"
+  },
+  "overrides": {
+    "cordova-plugin-ionic": {
+      "cordova-plugin-ionic-webview": "npm:@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5"
     }
+  }
 }
