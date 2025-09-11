@@ -64,7 +64,7 @@
         "@awesome-cordova-plugins/keyboard": "^8.0.2",
         "@awesome-cordova-plugins/local-notifications": "^8.0.2",
         "@awesome-cordova-plugins/media-capture": "^8.0.2",
-         "@awesome-cordova-plugins/ionic-webview": "^8.0.2",
+        "@awesome-cordova-plugins/ionic-webview": "^8.0.2",
         "@awesome-cordova-plugins/network": "^8.0.2",
         "@awesome-cordova-plugins/push": "^8.0.2",
         "@awesome-cordova-plugins/splash-screen": "^8.0.2",
@@ -81,7 +81,7 @@
         "@moodlehq/cordova-plugin-inappbrowser": "6.0.0-moodle.1",
         "@moodlehq/cordova-plugin-intent": "2.2.0-moodle.3",
         "@moodlehq/cordova-plugin-ionic-keyboard": "^2.2.0-moodle.3",
-        "cordova-plugin-ionic-webview": "@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5",
+         "@moodlehq/cordova-plugin-ionic-webview": "5.0.0-moodle.5",
         "@moodlehq/cordova-plugin-media-capture": "5.0.0-moodle.1",
         "@moodlehq/cordova-plugin-qrscanner": "3.0.1-moodle.5",
         "@moodlehq/cordova-plugin-statusbar": "4.0.0-moodle.5",
@@ -199,7 +199,7 @@
             "@moodlehq/cordova-plugin-ionic-keyboard": {},
             "@moodlehq/cordova-plugin-media-capture": {},
             "@moodlehq/cordova-plugin-qrscanner": {},
-            "cordova-plugin-ionic-webview": {},
+            "@moodlehq/cordova-plugin-ionic-webview": {},
             "@moodlehq/cordova-plugin-statusbar": {},
             "@moodlehq/cordova-plugin-zip": {},
             "@moodlehq/phonegap-plugin-push": {
@@ -245,6 +245,6 @@
         }
     },
     "overrides": {
-    "cordova-plugin-ionic-webview": "@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5"
-  }
+        "cordova-plugin-ionic-webview": "@moodlehq/cordova-plugin-ionic-webview@5.0.0-moodle.5"
+    }
 }
