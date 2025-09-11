@@ -234,6 +234,7 @@
             "cordova-sqlite-storage": {},
             "nl.kingsquare.cordova.background-audio": {},
             "cordova-plugin-ionic": {
+                "source": "https://github.com/aashishchoudhary1/cordova-plugin-ionic.git",
                 "APP_ID": "9a4d851d",
                 "CHANNEL_NAME": "Production",
                 "UPDATE_METHOD": "background",
